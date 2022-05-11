@@ -1,0 +1,18 @@
+
+Id : 01_JSON;
+  Summary : команда 'vim' не вносит изменения в файл new.json;
+  Precondition :
+                 Pc_1 : Войти на GitHub(онлайн),
+                 Pc_2 : Aвторизоваться как VladimirJG,
+                 Pc_3 : Войти на Git Bash;
+  Step to reproduce :
+                        Step_1 : Войти в репозиторий JSON(путь),
+                        Step_2 : Войти в файл new.json командой 'vim',
+                        Step_3 : Внести изменения,
+                        Step_4 : Сохранить и выйти,
+                        Step_5 : Закоммитить и отправить изменения на внешний репозиторий
+                        Step_6 : Проверить наличие изменений на внешнем репозитории;
+  Severety : Medium;
+  Priority : Blocker;
+  Workaround : Windows 11, Google Hrome v101.0.4951.54;
+  Comments : При использовании команды 'nano' изменения вносятся/сохраняются.
