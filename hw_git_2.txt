@@ -28,4 +28,6 @@
 
 8) Запушить структуру на внешний репозиторий ->git add . -> git commit -m "Checklist commit" -> git push;
 
-9) На внешнем репозитории сделать Pull Request ветки CheckLists в main
+9) На внешнем репозитории сделать Pull Request ветки CheckLists в main -> Pull request -> New pull request -> compare:ChekLists to base:main -> Create pull request -> Merge pull request -> Confirm merge;
+
+10) Синхронизировать Внешнюю и Локальную ветки Main -> git checkout main -> git pull.
