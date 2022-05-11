@@ -1,0 +1,31 @@
+1) На локальном репозитории сделать ветки -> git branch 
+(- Postman
+ - Jmeter
+ - CheckLists
+ - Bag Reports
+ - SQL
+ - Charles
+ - Mobile testing);
+
+2) Запушить все ветки на внешний репозиторий -> git push -u origin
+(- Postman
+ - Jmeter
+ - CheckLists
+ - Bag Reports
+ - SQL
+ - Charles
+ - Mobile testing);
+
+3) В ветке Bug_Reports сделать текстовый документ со структурой баг репорта -> git checkout Bug_Reports -> vim bug-rep.txt -> Esc -> :wq;
+
+4) Запушить структуру багрепорта на внешний репозиторий -> git add .-> git commit -m "BR" -> git push;
+
+5) Вмержить ветку Bug_Reports в Main -> git checkout main -> git merge Bug_Reports;
+
+6) Запушить main на внешний репозиторий (я делал git push и у меня все прошло, но в процессе написания настоящего документа пришла мысль о git push -u origin main (нужно или нет??));
+
+7) В ветке CheckLists набросать структуру чек листа -> git chekout CheckLists ->vim ch_list.txt -> Esc -> :wq;
+
+8) Запушить структуру на внешний репозиторий ->git add . -> git commit -m "Checklist commit" -> git push;
+
+9) На внешнем репозитории сделать Pull Request ветки CheckLists в main

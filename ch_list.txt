@@ -2,5 +2,5 @@ id : 01_Ch_L
 summary : закомитить CheckLists на внешний репозиторий
 expected result : коммит выполнен
 actual result : true
-comments :
+comments : .....
 
